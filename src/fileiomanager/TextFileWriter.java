@@ -11,7 +11,7 @@ import java.io.File;
  *
  * @author Peter Zarafield
  */
-public interface FileWriteStrategy {
+public interface TextFileWriter {
     
     public abstract void writeFileByLine(File file);
     

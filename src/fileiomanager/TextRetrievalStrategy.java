@@ -1,12 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package fileiomanager;
 
+
+import java.util.*;
+import java.io.*;
+
 /**
- *
+ *NOT USING THIS CLASS
+ * WILL DELETE ONCE I'M SURE DELETING IT WONT BREAK EVERYTIHNG
  * @author Peter Zarafield
  */
 public interface TextRetrievalStrategy {

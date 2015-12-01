@@ -6,6 +6,8 @@
 package fileiomanager;
 
 import java.io.File;
+import java.io.IOException;
+import java.util.List;
 
 /**
  *
@@ -13,8 +15,8 @@ import java.io.File;
  */
 public interface TextFileWriter {
     
-    public abstract void writeFileByLine(File file);
+    public abstract void writeFileByLine(File file, List<String> s) throws IOException;
     
-    public abstract void writeFileByChar(File file);
+    public abstract void writeFileByChar(File file, char c) throws IOException;
     
 }
